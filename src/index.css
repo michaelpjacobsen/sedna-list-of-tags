@@ -1,0 +1,87 @@
+
+   
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background-color: #eeeeee;
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2a6758;
+  color: white;
+  border: 1px solid #2a6758;
+  margin: 1 1rem;
+}
+
+.btn:hover {
+  background-color: #0a5201;
+  border-color: #0a5201;
+}
+
+.card {
+  background-color: rgb(216, 216, 216);
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display:inline-block;
+  padding: 1rem;
+  width: 100%;
+}
+
+.card li {
+  list-style-type: none;
+}
+
+.actions {
+  text-align: right;
+}
+
+.tag-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  background: rgb(216, 216, 216);
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: rgb(31, 82, 158);
+  border-radius: 20px;
+  height: 25px;
+  margin: 2px 5px 2px 0px;
+  color: white;
+}
+
+.tag-container input {
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 0;
+  background: rgb(255, 255, 255);
+  color: black;
+}
+.tag span {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.spans {
+  display:inline-block;
+  width: 25%;
+}
